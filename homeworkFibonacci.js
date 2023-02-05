@@ -11,3 +11,11 @@ and so on!
 
 Exercise: Find 10th number in the sequence using JS, use arrays and for loops to solve this*/
 
+let fibonacci = [0, 1, 1, 2, 3, 5, 8];
+for (i = 2; i <= 10; i++) {
+    fibonacci[i] = fibonacci[i - 2] + fibonacci[i - 1];
+    console.log(fibonacci[i]);
+    console.log("The 10th element in Fibonacci array is: " +fibonacci[9]); //9 because it's array element index is 10
+}
+
+/*Finobacci homework is seen in tabelHomework html console*/
