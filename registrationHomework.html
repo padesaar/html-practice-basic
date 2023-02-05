@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Subscription form</title>
+</head>
+<body>
+<h1>Subscription Form</h1>
+<h3><i>I would like to subscribe to</i></h3>
+
+<form>
+  <table border="1">
+    <thead bgcolor="black" >
+    <tr>
+      <th><span style="color:white">Publication </span></th>
+      <th><span style="color:white">Term </span></th>
+      <th><span style="color:white">Price </span></th>
+      <th><span style="color:white">Start Date</span></th>
+      <th>Remark</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>
+        <input name="empty" id="empty" type="text" /></td>
+      <td><input name="empty" id="empty1" type="text" /></td>
+      <td><input name="empty" id="empty2" type="text" /></td>
+      <td><input name="empty" id="empty3" type="text" /></td>
+      <td><input name="empty" id="empty4" type="text" /></td>
+    </tr>
+    <td>
+      <input name="empty" id="empty5" type="text" /></td>
+    <td><input name="empty" id="empty6" type="text" /></td>
+    <td><input name="empty" id="empty7" type="text" /></td>
+    <td><input name="empty" id="empty8" type="text" /></td>
+    <td><input name="empty" id="empty9" type="text" /></td>
+    </tr>
+    <td>
+      <input name="empty" id="empty10" type="text" /></td>
+    <td><input name="empty" id="empty11" type="text" /></td>
+    <td><input name="empty" id="empty12" type="text" /></td>
+    <td><input name="empty" id="empty13" type="text" /></td>
+    <td><input name="empty" id="empty14" type="text" /></td>
+    </tr>
+    </tbody>
+  </table>
+
+<br/>
+  <label for="mr"></label>
+  <input type="radio" id="mr" name="nametag"/> Mr
+  <input type="radio" id="mrs" name="nametag"/> Mrs
+  <input type="radio" id="miss" name="nametag"/> Miss
+
+  <br/>
+  <br/>
+
+  <label for="first-name">First name</label>
+  <input name="first-name" id="first-name" type="text" />
+  <br/>
+  <br/>
+  <label for="last-name">Last name</label>
+  <input name="last-name" id="last-name" type="text" />
+  <br/>
+  <br/>
+
+  <label for="home">Deliver Address</label>
+  <input type="radio" id="home" name="deliver-address"/> Home
+  <input type="radio" id="office" name="deliver-address"/> Office
+  <br/>
+  <br/>
+  <label for="company-name">Company name</label>
+  <input name="company-name" id="company-name" type="text" />
+  <br/>
+  <label for="house-number">House number</label>
+  <input type="number" id="house-number" name="house-number"/>
+  <br/>
+  <label for="building">Building</label>
+  <input type="text" id="building" name="building"/>
+  <br/>
+  <label for="floor">Floor</label>
+  <input type="number" id="floor" name="floor"/>
+  <br/>
+  <label for="room">Room number</label>
+  <input type="number" id="room" name="room"/>
+  <br/>
+  <label for="village">Village</label>
+  <input name="village" id="village" type="text" />
+  <br/>
+  <label for="sol">Sol</label>
+  <input name="sol" id="sol" type="text" />
+  <br/>
+  <label for="street">Street</label>
+  <input name="street" id="street" type="text" />
+  <br/>
+  <label for="sub-district">Sub-district</label>
+  <input name="sub-district" id="sub-district" type="text" />
+  <br/>
+  <label for="district">District</label>
+  <input name="district" id="district" type="text" />
+  <br/>
+  <label for="city">City</label>
+  <input name="city" id="city" type="text" />
+  <br/>
+  <label for="zip-code">Zip-code</label>
+  <input name="zip-code" id="zip-code" type="text" />
+  <br/>
+  <label for="tel">Tel</label>
+  <input name="tel" id="tel" type="text" />
+  <br/>
+  <label for="mobile">Mobile</label>
+  <input name="mobile" id="mobile" type="text" />
+  <br/>
+  <label for="fax">Fax</label>
+  <input name="fax" id="fax" type="text" />
+  <br/>
+  <label for="email">Email</label>
+  <input name="email" id="email" type="text" />
+  <br/>
+  <h4>Billing address: (If different from above)</h4>
+  <br>
+  <label for="billing-company-name">Company name</label>
+  <input name="billing-company-name" id="billing-company-name" type="text" />
+  <br/>
+  <label for="address">Address</label>
+  <textarea id="address" name="address" rows="8" cols="10"></textarea>
+  <br/>
+  <label for="company-tel">Tel</label>
+  <input name="company-tel" id="company-tel" type="text" />
+  <br/>
+  <label for="billing-fax">Fax</label>
+  <input name="billing-fax" id="billing-fax" type="text" />
+  <br/>
+  <label for="contact-person">Contact Person</label>
+  <input name="contact-person" id="contact-person" type="text" />
+  <br/>
+  <br/>
+  <label for="pay">I would like to pay by:</label>
+  <br/>
+  <input type="checkbox" id="pay" name="bank-transfer"/> Bank transfer direct to "Bangkok Post Public Cc.,Ltd."
+  <h5>Bangkok Bank/Sunthorn Kosa branch A/C 218-3-00884-2 Date <input type="date" id="join-date" name="join-date" /></h5>
+  <h5>Kasilkorn Bank/North Sathorn branch A/C 038-1-07730-6 Date <input type="date" id="join-date2" name="join-date" /></h5>
+  <h5>Siam Commercial Bank/Wireless Road A/C 049-3-10616-4 Date <input type="date" id="join-date3" name="join-date" /></h5>
+  <input type="checkbox" id="pay2" name="credit-card" /> Credit card
+  <label for="card-name"></label>
+  <input type="radio" id="card-name" name="card-name"> <img src="../assets/images/mastercard.png" alt="mastercard" height="25" width="40"/>
+  <input type="radio" id="visa" name="card-name"/> <img src="../assets/images/visa.png" alt="visa" height="25" width="40"/>
+  <input type="radio" id="" name="card-name"/> <img src="../assets/images/american.png" alt="american" height="25" width="40"/>
+  <br/>
+
+    <p>Card number:</p>
+    <table border="1" >
+      <thead>
+      <tr>
+        <td width="50" height="15"></td>
+        <td width="50"></td>
+        <td width="50"></td>
+        <td width="50"></td>
+        <td width="50"></td>
+        <td width="50"></td>
+        <td width="50"></td>
+        <td width="50"></td>
+        <td width="50"></td>
+        <td width="50"></td>
+        <td width="50"></td>
+        <td width="50"></td>
+        <td width="50"></td>
+        <td width="50"></td>
+        <td width="50"></td>
+        <td width="50"></td>
+      </tr>
+      </thead>
+    </table>
+  <br/>
+
+  <p>Authorized signature......................</p>
+  <p>Expire Date..............................</p>
+
+</form>
+
+</body>
+</html>

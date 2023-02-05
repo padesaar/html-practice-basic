@@ -1,0 +1,23 @@
+body {
+    background-color: beige;
+}
+
+h1 {
+    font-family: "Mongolian Baiti";
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+h4, p {
+    text-align: left;
+}
+
+p{
+    border-style: ridge;
+}
+
+h1+h2{
+    margin: 10px 70px 10px 30px;
+}

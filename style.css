@@ -1,0 +1,72 @@
+h1 {
+    color: blue;
+    transform: rotate(90deg);
+}
+
+#course-list {
+
+    margin: 0% 5% 0 0%;
+    box-shadow: fuchsia;
+    opacity: revert; /*dimming and brighting elements*/
+}
+
+.hide-me{
+    display: none;
+}
+
+.bold-orange{
+    color: orange;
+    font-weight: bold;
+}
+
+.under-line {
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-color: aqua;
+}
+
+#greetings p {
+    margin-left: 30px;
+}
+
+ul li {
+    text-decoration: line-through;
+    font-family: "Brush Script MT";
+}
+
+/*Child selectors*/
+#greetings>p {
+    border: 4px dashed green;
+    padding-left: 50px;
+
+}
+/*Next element selector*/
+h3+ol {
+    text-decoration-line: underline;
+    padding: 0 10px 0 5px;
+}
+
+/*Combined selectors*/
+p, h1, section {
+    background: blanchedalmond;
+}
+
+/*Attribute selector*/
+[name=email] {
+   /* background: #521852;*/
+    background: rgb(82, 24, 82);
+}
+
+/*Position*/
+#hot-news {
+    position: sticky; /*absolute - teksi suurune; sticky - terve lehekülje laiuses*/
+    box-shadow: fuchsia; /*CSS3*/
+    text-shadow: royalblue;
+
+}
+/*CSS3*/
+/*body {
+    font-face: source of the new font
+} */
+
+
